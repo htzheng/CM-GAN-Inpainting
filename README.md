@@ -10,13 +10,13 @@ This is the official repo for CM-GAN: Image Inpainting with Cascaded Modulation 
 ## Comparisons
 ![teaser](figures/3241.jpg)
 ![teaser](figures/14.jpg)
-![teaser](figures/1340.jpg)
+<!-- ![teaser](figures/1340.jpg) -->
 ![teaser](figures/Places365_val_00025577.png)
 ![teaser](figures/Places365_val_00025090.png)
 ![teaser](figures/193.jpg)
 ![teaser](figures/6013.jpg)
 ![teaser](figures/Places365_val_00020151.png)
-![teaser](figures/Places365_val_00025613.png)
+<!-- ![teaser](figures/Places365_val_00025613.png) -->
 ![teaser](figures/Places365_val_00028010.png)
 ![teaser](figures/Places365_val_00027012.png)
 ![teaser](figures/Places365_val_00029029.png)
