@@ -14,15 +14,23 @@ This is the official repo for CM-GAN: Image Inpainting with Cascaded Modulation 
 ![teaser](figures/Places365_val_00025577.png)
 ![teaser](figures/Places365_val_00025090.png)
 ![teaser](figures/193.jpg)
-![teaser](figures/Places365_val_00020862.png)
+![teaser](figures/6013.jpg)
+![teaser](figures/Places365_val_00020151.png)
+![teaser](figures/Places365_val_00025613.png)
+![teaser](figures/Places365_val_00028010.png)
+![teaser](figures/Places365_val_00027012.png)
+![teaser](figures/Places365_val_00029029.png)
 ![teaser](figures/caption.png)
 ## Framework
 We propose cascaded modulation GAN (CM-GAN) with a new modulation design that cascades global modulation with spatial adaptive modulation for better hole filling. 
 ![teaser](figures/framework.jpg)
 
-## More Results
+## Results
 CM-GAN achieves better FID, LPIPS, U-IDS and P-IDS scores.
 ![teaser](figures/table.png)
+
+## Demo
+![teaser](images/demo_video.gif)
 
 ## Citation
 Please consider cite our paper if If you use this code for your research, please cite our papers.
