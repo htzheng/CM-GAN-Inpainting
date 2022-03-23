@@ -6,6 +6,10 @@ The official repo for **CM-GAN** (**C**ascaded **M**odulation **GAN**) for Image
 ## Example
 ![teaser](images/demo.gif)
 
+## Framework
+We propose cascaded modulation GAN (CM-GAN) with a new modulation design that cascades global modulation with spatial adaptive modulation. To enable this, we design a new spatial modulation scheme that is compatible to the state-of-the-art GANs ([StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch) and [StyleGAN3](https://github.com/NVlabs/stylegan3)) with weight demodulation. We also propose an object-aware training scheme that generates more realistic masks to facilitate the real object removal use case.
+![teaser](figures/framework.jpg)
+
 ## Comparisons
 CM-GAN reconstructs **better textures**
 ![teaser](figures/193.jpg)
@@ -37,10 +41,6 @@ and **better object boundaries**.
 ![teaser](figures/Places365_val_00029029.png)
 ![teaser](figures/caption.png)
 
-## Framework
-We propose cascaded modulation GAN (CM-GAN) with a new modulation design that cascades global modulation with spatial adaptive modulation. To enable this, we design a new spatial modulation scheme that is compatible to the state-of-the-art GANs ([StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch) and [StyleGAN3](https://github.com/NVlabs/stylegan3)) with weight demodulation. We also propose an object-aware training scheme that generates more realistic masks to facilitate the real object removal use case.
-
-![teaser](figures/framework.jpg)
 
 ## Results
 CM-GAN achieves better FID, LPIPS, U-IDS and P-IDS scores.
