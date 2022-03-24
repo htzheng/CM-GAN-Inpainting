@@ -1,5 +1,5 @@
 # CM-GAN for Image Inpainting
-[arXiv](https://arxiv.org/abs/)|[Project](https://arxiv.org/abs/)|[Demo](https://arxiv.org/abs/)
+[arXiv](https://arxiv.org/abs/2203.11947)|[Project](https://arxiv.org/abs/2203.11947)|[Demo](https://arxiv.org/abs/2203.11947)
 
 The official repo for **CM-GAN** (**C**ascaded **M**odulation **GAN**) for Image Inpainting. We introduce a new cascaded modulation design that cascades global modulation with spatial adaptive modulation for better hole filling. We also introduce an object-aware training scheme to facilitate better object removal. CM-GAN significantly improves the existing state-of-the-art methods qualitatively and quantitatively. The code and online demo will be released soon.
 
@@ -53,6 +53,12 @@ https://github.com/htzheng/CM-GAN-Inpainting/raw/main/figures/demo_1.webm
 ## Citation
 Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training" (Haitian Zheng, Zhe Lin, Jingwan Lu, Scott Cohen, Eli Shechtman, Connelly Barnes, Jianming Zhang, Ning Xu, Sohrab Amirghodsi, Jiebo Luo) if you find this project useful for your research. 
 ```
-@inproceedings{
+@misc{zheng2022cmgan,
+      title={CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training}, 
+      author={Haitian Zheng and Zhe Lin and Jingwan Lu and Scott Cohen and Eli Shechtman and Connelly Barnes and Jianming Zhang and Ning Xu and Sohrab Amirghodsi and Jiebo Luo},
+      year={2022},
+      eprint={2203.11947},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
