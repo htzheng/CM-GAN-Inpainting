@@ -51,7 +51,7 @@ Our inpainting interface suppports interactive selection and removal of distract
 ![teaser](figures/demo1.gif)
 
 ## Citation
-Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training" (Haitian Zheng, Zhe Lin, Jingwan Lu, Scott Cohen, Eli Shechtman, Connelly Barnes, Jianming Zhang, Ning Xu, Sohrab Amirghodsi, Jiebo Luo) if you find this project useful for your research. 
+Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training" (Haitian Zheng, Zhe Lin, Jingwan Lu, Scott Cohen, Eli Shechtman, Connelly Barnes, Jianming Zhang, Ning Xu, Sohrab Amirghodsi, Jiebo Luo) if you find this work useful for your research. 
 ```
 @article{zheng2022cmgan,
       title={CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training}, 
