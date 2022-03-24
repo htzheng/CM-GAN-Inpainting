@@ -6,10 +6,6 @@ The official repo for **CM-GAN** (**C**ascaded **M**odulation **GAN**) for Image
 ## Example
 ![teaser](figures/teaser.gif)
 
-## Demo
-Our inpainting interface suppports interactive selection and removal of distractors. We thank [Qing Liu](https://qliu24.github.io/) for building the nice demo.
-![teaser](figures/demo1.gif)
-
 ## Method
 We propose cascaded modulation GAN (CM-GAN) with a new modulation design that cascades global modulation with spatial adaptive modulation. To enable this, we also design a new spatial modulation scheme that is compatible to the state-of-the-art GANs ([StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch) and [StyleGAN3](https://github.com/NVlabs/stylegan3)) with weight demodulation. We additionally propose an object-aware training scheme that generates more realistic masks to facilitate the real object removal use case. Please refer to [arXiv](https://arxiv.org/abs/2203.11947) for more technical details.
 ![teaser](figures/framework.jpg)
@@ -50,6 +46,9 @@ and **better object boundaries**.
 CM-GAN achieves better FID, LPIPS, U-IDS and P-IDS scores.
 ![teaser](figures/table.png)
 
+## Demo
+Our inpainting interface suppports interactive selection and removal of distractors. We thank [Qing Liu](https://qliu24.github.io/) for building the nice demo.
+![teaser](figures/demo1.gif)
 
 ## Citation
 Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training" (Haitian Zheng, Zhe Lin, Jingwan Lu, Scott Cohen, Eli Shechtman, Connelly Barnes, Jianming Zhang, Ning Xu, Sohrab Amirghodsi, Jiebo Luo) if you find this project useful for your research. 
