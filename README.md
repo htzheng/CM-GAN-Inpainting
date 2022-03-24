@@ -48,7 +48,7 @@ CM-GAN achieves better FID, LPIPS, U-IDS and P-IDS scores.
 
 ## Demo
 Our inpainting interface suppports interactive selection and removal of distractors. We thank [Qing Liu](https://qliu24.github.io/) for building the nice demo.
-![teaser](images/demo_video.gif)
+https://github.com/htzheng/CM-GAN-Inpainting/raw/main/figures/demo_1.webm
 
 ## Citation
 Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training" (Haitian Zheng, Zhe Lin, Jingwan Lu, Scott Cohen, Eli Shechtman, Connelly Barnes, Jianming Zhang, Ning Xu, Sohrab Amirghodsi, Jiebo Luo) if you find this project useful for your research. 
