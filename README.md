@@ -61,7 +61,7 @@ Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulatio
 }
 ```
 
-We also have another interesting project on [image manipulation](https://arxiv.org/abs/2012.07288). Please also feel free to cite our paper if you find this project interesting.
+We also have **another interesting project** on [image manipulation](https://arxiv.org/abs/2012.07288). Please also feel free to cite our paper if you find this project interesting.
 <p float="left">
   <img src="figures/manipulation1.jpg" width="400" />
   <img src="figures/manipulation2.jpg" width="400" /> 
