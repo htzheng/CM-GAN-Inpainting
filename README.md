@@ -59,7 +59,15 @@ Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulatio
       journal={arXiv preprint arXiv:2203.11947},
       year={2022},
 }
+```
 
+We also have another interesting project on [image manipulation](https://arxiv.org/abs/2012.07288). Please also feel free to cite our paper if you find this project interesting.
+<p float="left">
+  <img src="figures/manipulation1.jpg" width="400" />
+  <img src="figures/manipulation2.jpg" width="400" /> 
+</p>
+
+```
 @article{zheng2020semantic,
   title={Semantic layout manipulation with high-resolution sparse attention},
   author={Zheng, Haitian and Lin, Zhe and Lu, Jingwan and Cohen, Scott and Zhang, Jianming and Xu, Ning and Luo, Jiebo},
