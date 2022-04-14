@@ -1,7 +1,7 @@
 # CM-GAN for Image Inpainting
 [arXiv](https://arxiv.org/abs/2203.11947)|[pdf paper](CM_GAN.pdf)|[Project](https://github.com/htzheng/CM-GAN-Inpainting/)|[Demo Video](https://github.com/htzheng/CM-GAN-Inpainting/tree/main/figures/demo)
 
-The official repo for **CM-GAN** (**C**ascaded **M**odulation **GAN**) for Image Inpainting. We introduce a new cascaded modulation design that cascades global modulation with spatial adaptive modulation for better hole filling. We also introduce an object-aware training scheme to facilitate better object removal. CM-GAN significantly improves the existing state-of-the-art methods both qualitatively and quantitatively. The online demo will be released soon.
+The official repo of **CM-GAN** (**C**ascaded **M**odulation **GAN**) for Image Inpainting. We introduce a new cascaded modulation design that cascades global modulation with spatial adaptive modulation for better hole filling. We also introduce an object-aware training scheme to facilitate better object removal. CM-GAN significantly improves the existing state-of-the-art methods both qualitatively and quantitatively. The online demo will be released soon.
 
 <!-- ## Example
 ![teaser](figures/teaser.gif) -->
