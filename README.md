@@ -10,8 +10,20 @@
 The official repo for **CM-GAN** (**C**ascaded **M**odulation **GAN**) for Image Inpainting. We introduce a new cascaded modulation design that cascades global modulation with spatial adaptive modulation for better hole filling. We also introduce an object-aware training scheme to facilitate better object removal. CM-GAN significantly improves the existing state-of-the-art methods both qualitatively and quantitatively. The online demo will be released soon.
 
 NEWS (20/07/2022): We plan to release the online demo and our dataset soon in the next few days.
+
+NEWS (28/07/2022): The [panoptic segmentation annotations](https://www.dropbox.com/sh/mxbi2wxad0z1vvq/AADExa5jRRM5UQ_O6EtA8Pnja) on Places2 challange dataset are released. Please refer to the [panoptic annotations](#panoptic-annotations) section for details.
+
+NEWS (28/07/2022): The [evluation set and CM-GAN results](https://www.dropbox.com/sh/8y8orhtje98hhki/AACXMGpTf9ag5oBNpixZFmaXa) are released, which includes the object-aware masks for evaluation and our results. Please refer to the [evaluation and results](#evaluation-and-results) section for details.
+
+
 <!-- ## Example
 ![teaser](figures/teaser.gif) -->
+
+## dataset
+### panoptic annotations
+The panoptic segmentation annotations on Places2 are released. Please refer to [places2_panoptic_annotation](https://www.dropbox.com/sh/mxbi2wxad0z1vvq/AADExa5jRRM5UQ_O6EtA8Pnja) folder to download the panoptic segmentation annotations on train, evaluation, and test sets.
+### evaluation and results
+The evluation set for inpainting is released. Please refer to [evaluation](https://www.dropbox.com/sh/8y8orhtje98hhki/AACXMGpTf9ag5oBNpixZFmaXa) folder, which contains the Places evluation set images at resolution 512x512 (image.tar), the object-aware masks for all evluation images (mask.tar), and the results of CM-GAN (cmgan-perc64.tar).
 
 ## Method
 We propose cascaded modulation GAN (CM-GAN) with a new modulation design that cascades global modulation with spatial adaptive modulation. To enable this, we also design a new spatial modulation scheme that is compatible to the state-of-the-art GANs ([StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch) and [StyleGAN3](https://github.com/NVlabs/stylegan3)) with weight demodulation. We additionally propose an object-aware training scheme that generates more realistic masks to facilitate the real object removal use case. Please refer to [arXiv](https://arxiv.org/abs/2203.11947) for more technical details.
