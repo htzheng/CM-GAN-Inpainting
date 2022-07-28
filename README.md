@@ -61,10 +61,10 @@ Our inpainting interface suppports interactive selection and removal of distract
 ![teaser](figures/demo1.gif) -->
 
 
-## dataset
-### panoptic annotations
+## Dataset
+### Panoptic annotations
 The panoptic segmentation annotations on Places2 are released. Please refer to [places2_panoptic_annotation](https://www.dropbox.com/sh/mxbi2wxad0z1vvq/AADExa5jRRM5UQ_O6EtA8Pnja) folder to download the panoptic segmentation annotations on train, evaluation, and test sets.
-### evaluation and results
+### Evaluation and results
 The evluation set for inpainting is released. Please refer to [evaluation](https://www.dropbox.com/sh/8y8orhtje98hhki/AACXMGpTf9ag5oBNpixZFmaXa) folder, which contains the Places evluation set images at resolution 512x512 (image.tar), the object-aware masks for all evluation images (mask.tar), and the results of CM-GAN (cmgan-perc64.tar).
 
 
