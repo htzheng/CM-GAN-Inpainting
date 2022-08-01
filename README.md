@@ -11,7 +11,7 @@ The official repo for **CM-GAN** (**C**ascaded **M**odulation **GAN**) for Image
 
 **NEWS (20/07/2022)**: We plan to release the online demo and our dataset soon in the next few days. \
 **NEWS (28/07/2022)**: The panoptic segmentation [annotations](https://www.dropbox.com/sh/mxbi2wxad0z1vvq/AADExa5jRRM5UQ_O6EtA8Pnja) on Places2 challange dataset are released. Please refer to the [panoptic annotations](#panoptic-annotations) section for details. \
-**NEWS (28/07/2022)**: The [evluation results](https://www.dropbox.com/sh/8y8orhtje98hhki/AACXMGpTf9ag5oBNpixZFmaXa) of CM-GAN is released, which contains the object-aware masks for evaluation and our results. Please refer to the [evaluation and results](#evaluation-and-results) section for details.
+**NEWS (28/07/2022)**: The [evluation results](https://www.dropbox.com/sh/8y8orhtje98hhki/AACXMGpTf9ag5oBNpixZFmaXa) of CM-GAN is released, which contains the object-aware masks for evaluation and our results. Please refer to the [evaluation and results](#evaluation-and-results) section for details. \
 **NEWS (31/07/2022)**: The object-aware mask generation [script](#Code-for-On-the-fly-Object-aware-Mask-Generation) is released.
 
 <!-- ## Example
