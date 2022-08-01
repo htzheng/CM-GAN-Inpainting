@@ -1,3 +1,6 @@
 figures/demo
 figures/video
 .vscode/*
+
+mask_generator/output_mask.png
+mask_generator/output_masked_image.png

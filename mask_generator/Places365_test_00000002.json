@@ -1,0 +1,28 @@
+[
+ {
+  "id": 1,
+  "isthing": true,
+  "score": 0.5645578503608704,
+  "category_id": 8,
+  "instance_id": 0
+ },
+ {
+  "id": 2,
+  "isthing": true,
+  "score": 0.5308902859687805,
+  "category_id": 8,
+  "instance_id": 1
+ },
+ {
+  "id": 3,
+  "isthing": false,
+  "category_id": 37,
+  "area": 48356
+ },
+ {
+  "id": 4,
+  "isthing": false,
+  "category_id": 46,
+  "area": 118089
+ }
+]

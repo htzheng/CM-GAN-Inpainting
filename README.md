@@ -62,11 +62,29 @@ Our inpainting interface suppports interactive selection and removal of distract
 
 
 ## Dataset
-### Panoptic annotations
-The panoptic segmentation annotations on Places2 are released. Please refer to [places2_panoptic_annotation](https://www.dropbox.com/sh/mxbi2wxad0z1vvq/AADExa5jRRM5UQ_O6EtA8Pnja) folder to download the panoptic segmentation annotations on train, evaluation, and test sets.
-### Evaluation and results
-The evluation set for inpainting is released. Please refer to [evaluation](https://www.dropbox.com/sh/8y8orhtje98hhki/AACXMGpTf9ag5oBNpixZFmaXa) folder, which contains the Places evluation set images at resolution 512x512 (image.tar), the object-aware masks for all evluation images (mask.tar), and the results of CM-GAN (cmgan-perc64.tar).
+### Panoptic Annotations
+The panoptic segmentation annotations on Places2 are released. Please refer to Dropbox folder [places2_panoptic_annotation](https://www.dropbox.com/sh/mxbi2wxad0z1vvq/AADExa5jRRM5UQ_O6EtA8Pnja) to download the panoptic segmentation annotations on train, evaluation, and test sets (```[data/test/val]_large_panoptic.tar```) and the corresonding file lists (```[data/test/val]_large_panoptic.txt```). Images of Places2-challange dataset can be downloaded at the [Places2 official website](http://places2.csail.mit.edu/index.html).
 
+### Format of Panoptic Annotation
+The panoptic annotation of each image is represented by a ```png``` image and a ```json``` file. The png image saves the ```id```, ```category_id``` of each segment. If ```isthing``` represent whether the segment is thing/stuff. To know more details about the data format, please run the following python script
+```python
+from detectron2.data import MetadataCatalog 
+panoptic_metadata = MetadataCatalog.get('coco_2017_val_panoptic_separated')
+```
+and refer to the 
+and [generating object-aware mask](#evaluation-and-results), which provides an detailed example on how to generate object-aware masks from the panoptic annotation. The metadata ```panoptic_metadata``` is also saved at ```mask_generator/_panoptic_metadata.txt```
+
+### Evaluation and CM-GAN Results
+The evluation set for inpainting is released. Please refer to [evaluation](https://www.dropbox.com/sh/8y8orhtje98hhki/AACXMGpTf9ag5oBNpixZFmaXa) folder on Dropbox, which contains the Places evluation set images at resolution 512x512 (image.tar), the object-aware masks for all evluation images (mask.tar), and the results of CM-GAN (cmgan-perc64.tar).
+
+## Code for On-the-fly Object-aware Mask Generation
+The ```mask_generator/mask_generator.py``` contains the class and example for on-the-fly object-aware mask generation. Please run
+```console
+cd mask_generator
+python mask_generator.py
+```
+to generate a random mask and the masked image, which are save to ```mask_generator/output_mask.png``` and ```mask_generator/output_masked_image.png```, respectively. An visual example is shown below:
+![mask_example](figures/generated_mask_example.png)
 
 ## Citation
 Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training" (Haitian Zheng, Zhe Lin, Jingwan Lu, Scott Cohen, Eli Shechtman, Connelly Barnes, Jianming Zhang, Ning Xu, Sohrab Amirghodsi, Jiebo Luo) if you find this work useful for your research. 
