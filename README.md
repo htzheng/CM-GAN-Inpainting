@@ -1,5 +1,5 @@
 # CM-GAN for Image Inpainting (ECCV 2022)
-[arXiv](https://arxiv.org/abs/2203.11947)|[pdf paper](CM_GAN.pdf)|[Project](https://github.com/htzheng/CM-GAN-Inpainting/)
+[arXiv](https://arxiv.org/abs/2203.11947)|[pdf paper](CMGAN_camera_ready.pdf)|[appendix](CMGAN_appendix_camera_ready.pdf)|[Project](https://github.com/htzheng/CM-GAN-Inpainting/)
 <!-- |[Demo Video](https://github.com/htzheng/CM-GAN-Inpainting/tree/main/figures/demo) -->
 ![teaser](figures/3241.jpg)
 ![teaser](figures/405.jpg)
@@ -67,7 +67,7 @@ Our inpainting interface suppports interactive selection and removal of distract
 The panoptic segmentation annotations on Places2 are released. Please refer to Dropbox folder [places2_panoptic_annotation](https://www.dropbox.com/sh/mxbi2wxad0z1vvq/AADExa5jRRM5UQ_O6EtA8Pnja) to download the panoptic segmentation annotations on train, evaluation, and test sets (```[data/test/val]_large_panoptic.tar```) and the corresonding file lists (```[data/test/val]_large_panoptic.txt```). Images of Places2-challange dataset can be downloaded at the [Places2 official website](http://places2.csail.mit.edu/index.html).
 
 ### Format of Panoptic Annotation
-The panoptic annotation of each image is represented by a ```png``` image and a ```json``` file. The png image saves the ```id```, ```category_id``` of each segment. If ```isthing``` represent whether the segment is thing/stuff. To know more details about the data format, please run the following python script
+The panoptic annotation of each image is represented by a ```png``` image and a ```json``` file. The png image saves the ```id``` of each segment, and JSON file saves ```category_id```, ```isthing``` of id. ```Isthing``` represents whether the segment is a thing/stuff. To know more details about the data format, please run the following python script
 ```python
 from detectron2.data import MetadataCatalog 
 panoptic_metadata = MetadataCatalog.get('coco_2017_val_panoptic_separated')

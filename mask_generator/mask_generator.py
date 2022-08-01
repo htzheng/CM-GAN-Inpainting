@@ -73,7 +73,7 @@ class OTMask:
         ## the class label of the panoptic annotation can be loaded from the metadata
         if self._panoptic:
             try:
-                # detectron2 can be install with:  python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'   https://detectron2.readthedocs.io/en/latest/tutorials/install.html
+                # detectron2 can be install with:  python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'  (from https://detectron2.readthedocs.io/en/latest/tutorials/install.html)
                 from detectron2.data import MetadataCatalog 
                 self._panoptic_metadata = MetadataCatalog.get('coco_2017_val_panoptic_separated')
                 stuff_classes = self._panoptic_metadata.stuff_classes
