@@ -85,6 +85,7 @@ python mask_generator.py
 ```
 to generate a random mask and the masked image, which are save to ```mask_generator/output_mask.png``` and ```mask_generator/output_masked_image.png```, respectively. An visual example is shown below:
 ![mask_example](figures/generated_mask_example.png)
+Note that we use 4 object masks only for illstration and the full object mask dataset is from [PriFill, ECCV'20](https://arxiv.org/abs/2005.11742).
 
 ## Citation
 Please consider cite our paper "CM-GAN: Image Inpainting with Cascaded Modulation GAN and Object-Aware Training" (Haitian Zheng, Zhe Lin, Jingwan Lu, Scott Cohen, Eli Shechtman, Connelly Barnes, Jianming Zhang, Ning Xu, Sohrab Amirghodsi, Jiebo Luo) if you find this work useful for your research. 
