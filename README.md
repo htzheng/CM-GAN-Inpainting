@@ -10,7 +10,7 @@
 The official repo for **CM-GAN** (**C**ascaded **M**odulation **GAN**) for Image Inpainting. We introduce a new cascaded modulation design that cascades global modulation with spatial adaptive modulation for better hole filling. We also introduce an object-aware training scheme to facilitate better object removal. CM-GAN significantly improves the existing state-of-the-art methods both qualitatively and quantitatively. The online demo will be released soon.
 
 **NEWS (07/20/2022)**: We plan to release the online demo and our dataset soon in the next few days. \
-**NEWS (07/28/2022)**: The panoptic segmentation [annotations](https://www.dropbox.com/sh/mxbi2wxad0z1vvq/AADExa5jRRM5UQ_O6EtA8Pnja) on Places2 challange dataset are released. See [here](#panoptic-annotations). \
+**NEWS (07/28/2022)**: The panoptic segmentation [annotations](https://www.dropbox.com/scl/fi/ub9zhaa1eaw72zcwdm2jp/data_large_panoptic.tar?rlkey=r0ohjh4s8kiaslu8lh2cm9nsu&st=s8mufn32&dl=0) on Places2 challange dataset are released. See [here](#panoptic-annotations). \
 **NEWS (07/28/2022)**: The [evluation results](https://www.dropbox.com/sh/8y8orhtje98hhki/AACXMGpTf9ag5oBNpixZFmaXa) of CM-GAN are released, which contains the object-aware masks for evaluation and our results. See [here](#evaluation-and-results). \
 **NEWS (07/31/2022)**: The code for object-aware mask generation is released, see [here](#Code-for-On-the-fly-Object-aware-Mask-Generation).
 
